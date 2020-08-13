@@ -6,7 +6,7 @@ import AddBook from "./components/AddBook/AddBook";
 
 //  apollo client setup
 const client = new ApolloClient({
-  uri: "https://stormy-basin-84609.herokuapp.com/",
+  uri: "https://stormy-basin-84609.herokuapp.com/graphql",
 });
 
 function App() {
