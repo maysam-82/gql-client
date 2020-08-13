@@ -13,6 +13,9 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <div className="App">
+        <h1>Sample Project Built with Graphql,</h1>
+        <h1>React, Apollo and Expree to </h1>
+        <h1>Get and Post Data</h1>
         <BookList />
         <AddBook />
       </div>
