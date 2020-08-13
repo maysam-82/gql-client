@@ -19,7 +19,7 @@ h1 {
   margin: 0.625rem 0;
   width: auto;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 body {
   margin: 0;
@@ -42,15 +42,19 @@ code {
   width: 100%;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-bottom: 0.625rem;
 }
 .book {
-  font-size: 1rem;
+  font-size: 0.75rem;
   padding: 0.625rem;
+  width: calc(50% - 0.3125rem);
   cursor: pointer;
   text-align: center;
-  border-bottom: 0.0625rem solid #ccc;
+  margin: 0.3125rem 0;
+  background-color: #3366cc;
+  color: #fff;
 }
 .book-info-container {
   max-width: 18.75rem;
@@ -86,8 +90,9 @@ p {
   text-align: left;
   background-color: #fff;
   padding: 0.5rem;
-  border: 0.0625rem solid #666;
   margin-top: 0.5rem;
+  background-color: #3366cc;
+  color: #fff;
 }
 
 .add-book-form {
@@ -114,4 +119,7 @@ p {
   width: calc(100% - 1.25rem);
   margin: 0.625rem auto;
   font-size: 0.75rem;
+  background-color: #cc0000;
+  color: #fff;
+  border: none;
 }
